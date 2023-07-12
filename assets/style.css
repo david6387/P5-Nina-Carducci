@@ -105,18 +105,18 @@ nav a {
 	padding-block: 2em;
 }
 
-.gallery nav {
+.gallery .nav {
 	justify-content: center;
 }
 
-nav-pills nav-link.active,
-nav-pills .show>nav-link {
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
 	color: #fff;
 	background-color: #5E5A26;
 	border-radius: 0;
 }
 
-nav-pills nav-link {
+.nav-pills .nav-link {
 	color: #000
 }
 
