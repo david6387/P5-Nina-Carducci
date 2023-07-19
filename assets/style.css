@@ -1,10 +1,17 @@
-/* @font-face {
+@font-face {
 	font-family: "Inter";
 	src: url("./assets/fonts/Inter-Regular.woff") format("woff");
+}
+
+@font-face {
 	font-family: "Spectral";
 	src: url("./assets/fonts/Spectral-Regular.woff") format("woff");
-	src: url("./assets/fonts/Spectral-Italic.woff") format("woff");
-} */
+}
+
+@font-face {
+	font-family: "Spectral-Italic";
+	src: url("./assets/fonts/Spectral-BoldItalic.woff") format("woff");
+}
 
 body {
 	max-width: 1920px;
@@ -93,7 +100,7 @@ nav a {
 }
 
 .about-me__introduction {
-	font-family: 'Spectral';
+	font-family: 'Spectral-Italic';
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
@@ -166,7 +173,7 @@ nav a {
 }
 
 .quote {
-	font-family: 'Spectral';
+	font-family: 'Spectral-Italic';
 	font-style: italic;
 	width: 70%;
 	margin: auto;
@@ -174,14 +181,14 @@ nav a {
 }
 
 .quote__text {
-	font-family: Spectral;
+	font-family: 'Spectral-Italic';
 	font-style: italic;
 	font-weight: 300;
 
 }
 
 .quote__author {
-	font-family: Spectral;
+	font-family: 'Spectral';
 	font-weight: 800;
 	font-size: 22px;
 }
