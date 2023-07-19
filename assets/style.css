@@ -1,16 +1,19 @@
 @font-face {
 	font-family: "Inter";
 	src: url("./assets/fonts/Inter-Regular.woff") format("woff");
+	font-display: swap;
 }
 
 @font-face {
 	font-family: "Spectral";
 	src: url("./assets/fonts/Spectral-Regular.woff") format("woff");
+	font-display: swap;
 }
 
 @font-face {
 	font-family: "Spectral-Italic";
 	src: url("./assets/fonts/Spectral-BoldItalic.woff") format("woff");
+	font-display: swap;
 }
 
 body {
