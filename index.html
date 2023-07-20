@@ -43,7 +43,12 @@
 				"streetAddress": "68 avenue Alsace-Lorraine",
 				"addressCountry": "FR"
 			},
-			"openingHours": "Mo-Fr 10:00-19:00",
+			"openingHoursSpecification": [{
+				"@type": "OpeningHoursSpecification",
+				"dayOfWeek": ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi"],
+				"opens": "10:00",
+				"closes": "19:00"
+			}],
 			"telephone": "+33 5 56 67 88 89",
 			"url": "https://david6387.github.io/P5-Nina-Carducci/",
 			"image": "https://david6387.github.io/P5-Nina-Carducci/assets/images/nina-min.webp",
@@ -55,6 +60,7 @@
 			"sameAs": [
 				"https://www.instagram.com/ninacarducci.photo/"
 			],
+			"priceRange": "50€-400€",
 			"breadcrumb": {
 				"@type": "BreadcrumbList",
 				"itemListElement": [{
